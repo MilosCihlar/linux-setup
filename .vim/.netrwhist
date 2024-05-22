@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/miloscihlar/asgard/workspace/src/asgard/rviz/config'
+let g:netrw_dirhist_6='/home/miloscihlar/.config'
+let g:netrw_dirhist_5='/home/miloscihlar/asgard/workspace/src/simulator/plugins/joint_velocity/src'
+let g:netrw_dirhist_4='/home/miloscihlar/asgard/workspace/src/simulator/sensors/velodyne_simulator/velodyne_gazebo_plugins'
+let g:netrw_dirhist_3='/home/miloscihlar/asgard/workspace/src/simulator/sensors/velodyne_simulator/velodyne_simulator'
+let g:netrw_dirhist_2='/home/miloscihlar/asgard/workspace/src/simulator/sensors/velodyne_simulator/velodyne_description'
+let g:netrw_dirhist_1='/home/miloscihlar/asgard/src/simulator/start_simulation/one_ugv_x4'

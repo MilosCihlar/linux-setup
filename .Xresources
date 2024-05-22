@@ -1,0 +1,40 @@
+URxvt.font: xft:Hack:size=12
+
+URxvt.foreground: #DBDBDB
+URxvt.background: #17181a
+
+URxvt.cursorColor: #ffffff
+URxvt.cursorBlink: false
+
+URxvt.scrollBar: false
+
+! black
+URxvt.color0: #1C1C1C
+URxvt.color8: #404040
+! red
+URxvt.color1: #B85335
+URxvt.color9: #CF6A4C
+! green
+URxvt.color2: #79AD6A
+URxvt.color10: #99DD6A
+! yellow
+URxvt.color3: #FFB964
+URxvt.color11: #FAD07A
+! blue
+URxvt.color4: #667899
+URxvt.color12: #8197BF
+! magenta
+URxvt.color5: #A7A7FF
+URxvt.color13: #C6B6EE
+! cyan
+URxvt.color6: #668799
+URxvt.color14: #8FBFDC
+! white
+URxvt.color7:  #E5E9F0
+URxvt.color15: #8FBCBB
+
+! Restore Ctrl+Shift+(c|v)
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.iso14755: false
+URxvt.iso14755_52: false
