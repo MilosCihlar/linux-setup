@@ -18,9 +18,6 @@ TERM=alacritty
 autoload -U compinit
 compinit
 
-eval "$(register-python-argcomplete ros2)"
-eval "$(register-python-argcomplete colcon)"
-
 source $ZSH/oh-my-zsh.sh
 
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
