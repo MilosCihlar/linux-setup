@@ -14,6 +14,11 @@ TERM=alacritty
 # Uncomment the following line to enable command auto-correction.
  ENABLE_CORRECTION="true"
 
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+
 # Custom autocomplete settings
 autoload -U compinit
 compinit
