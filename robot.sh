@@ -13,3 +13,5 @@ sudo apt install tmux -y
 sudo apt install tmuxinator -y
 sudo apt install fonts-powerline -y
 sudo apt install fonts-hack-ttf -y
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
