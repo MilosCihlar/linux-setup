@@ -5,8 +5,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="agnoster"
-#TERM=tmux-256color
-TERM=alacritty
 
 # Uncomment the following line to change how often to auto-update (in days).
  zstyle ':omz:update' frequency 13
@@ -32,11 +30,11 @@ fi
 setopt nocorrectall
 
 # source ROS
-source /opt/ros/humble/setup.zsh
+[[ -f /opt/ros/humble/setup.zsh ]] && source /opt/ros/humble/setup.zsh
 
 # source asgard workspace
-source ~/asgard/workspace/install/setup.zsh
-source ~/asgard/external_packages/install/setup.zsh
+[[ -f ~/asgard/workspace/install/setup.zsh ]] && source ~/asgard/workspace/install/setup.zsh
+[[ -f ~/asgard/external_packages/install/setup.zsh ]] && source ~/asgard/external_packages/install/setup.zsh
 
 # Gazebo reosurce path
 export GZ_SIM_RESOURCE_PATH="$HOME/asgard/workspace/src/asgard/simulation/worlds:$HOME/asgard/workspace/src/asgard/simulation/models"
